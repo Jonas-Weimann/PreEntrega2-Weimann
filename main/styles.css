@@ -95,7 +95,7 @@ a.activo {
 .landing--imagenes img {
     width: 200px;
     height: 200px;
-    margin: 20px 30px;
+    margin: 45px 30px;
 
     border-radius: 100%;
 }
@@ -165,4 +165,27 @@ a.activo {
 .info-libreria .boton,
 .info-bijou .boton {
     margin: 500px 0;
+}
+
+footer {
+    width: 100dvw;
+    height: fit-content;
+    background-color: #232323;
+}
+
+.redes {
+    background-color: #232220;
+    margin: 20px;
+    padding: 20px;
+}
+
+.redes ion-icon {
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #dec5be;
+
 }
