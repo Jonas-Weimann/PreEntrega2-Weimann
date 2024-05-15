@@ -98,3 +98,35 @@ a.activo {
 
     border-radius: 100%;
 }
+
+.servicios {
+    width: 100dvw;
+    height: fit-content;
+    background-color: #bd998f;
+}
+
+.que-ofrecemos {
+    height: 600px;
+    z-index: 10;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+
+
+.que-ofrecemos p {
+    width: 600px;
+    background-color: #dec5be;
+    padding: 20px 15px;
+    border-radius: 15px;
+}
+
+.image-container {
+    height: 100%;
+}
+
+.imagen-libreria {
+    height: 50%;
+}
