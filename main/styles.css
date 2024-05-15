@@ -25,6 +25,7 @@ body {
     width: 100dvw;
     height: 80px;
     font-family: loubag;
+    z-index: 100;
     position: fixed;
 }
 
@@ -115,7 +116,6 @@ a.activo {
 }
 
 
-
 .que-ofrecemos p {
     width: 600px;
     background-color: #dec5be;
@@ -129,4 +129,15 @@ a.activo {
 
 .imagen-libreria {
     height: 50%;
+}
+
+.productos {
+    width: 100dvw;
+    height: fit-content;
+    background-color: #dec5be;
+    padding: 150px 0;
+}
+
+.productos--card {
+    margin: 40px;
 }
