@@ -141,3 +141,28 @@ a.activo {
 .productos--card {
     margin: 40px;
 }
+
+.mas-info {
+    width: 100dvw;
+    height: fit-content;
+    background-color: #232220;
+}
+
+.mas-info--titulo {
+    padding: 50px 0;
+}
+
+.info-libreria {
+    background: url(../images/infoLibreria.jpg);
+    height: 100%;
+}
+
+.info-bijou {
+    background: url(../images/pink.jpg);
+    height: 100%;
+}
+
+.info-libreria .boton,
+.info-bijou .boton {
+    margin: 500px 0;
+}
