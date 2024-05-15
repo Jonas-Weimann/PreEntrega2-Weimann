@@ -1,0 +1,120 @@
+@font-face {
+    font-family: loubag;
+    src: url('fonts/Variable/LoubagVariableGX.ttf') format('TrueType');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: loubag;
+    scrollbar-width: none;
+}
+
+body {
+    background-color: #dec5be;
+    position: relative;
+}
+
+#container {
+    width: 100dvw;
+    background-color: #dec5be;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container img {
+    width: 200px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+#menu li {
+    padding: 15px;
+    margin:  0 35px;
+    cursor: pointer;
+    text-align: center;
+    width: fit-content;
+    border-radius: 15px;
+}
+
+
+#menu li:hover {
+    background-color: #aa8479;
+    transition: all .5s;
+    
+}
+
+ion-icon {
+    opacity: 0;
+    color: #FFE7E7;
+    transform: rotate(270deg);
+    transition: margin-left .3s;
+}
+
+
+#menu li:hover ion-icon {
+    opacity: 1;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    transform: rotate(0deg);
+    transition: opacity .3s, transform .3s, margin-left .5s, font-size .5s;
+}
+
+#menu li:hover a {
+    transition: all .3s ease;
+    color: #FFE7E7;
+    font-size: 1.25rem;
+
+}
+
+
+#menu a {
+    text-decoration: none;
+    color: #694a41;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+#landing {
+    background: url(../images/rosa.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#titulo {
+    color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    background: #aa847988;
+    width: 100dvw;
+}
+
+#titulo h1 {
+    margin: 16px;
+    font-size: 5rem;
+    max-width: 1200px;
+}
+
+#titulo p {
+    margin: 16px 16px 32px;
+    font-weight: 200;
+    font-size: 1.15rem;
+    max-width: 600px;
+    line-height:25px;
+    text-align: left;
+}
