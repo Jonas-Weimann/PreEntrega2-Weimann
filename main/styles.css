@@ -249,3 +249,38 @@ footer {
 .oferta--descripcion p {
     padding: 10px 40px;
 }
+
+.galeria {
+    width: 100dvw;
+    height: fit-content;
+}
+
+.contain {
+    background-color: #232220;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1.5fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "grid-img-1 grid-img-1 grid-img-2 grid-img-2 grid-img-2 grid-img-3"
+      "grid-img-1 grid-img-1 grid-img-2 grid-img-2 grid-img-2 grid-img-4"
+      "grid-img-1 grid-img-1 grid-img-5 grid-img-5 grid-img-5 grid-img-5";
+  }
+  
+  .grid-img-1 { grid-area: grid-img-1; }
+  
+  .grid-img-2 { grid-area: grid-img-2; }
+  
+  .grid-img-3 { grid-area: grid-img-3; }
+  
+  .grid-img-4 { grid-area: grid-img-4; }
+  
+  .grid-img-5 { grid-area: grid-img-5; }
+  
+  .contain div img {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
