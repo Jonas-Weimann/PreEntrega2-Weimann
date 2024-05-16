@@ -88,9 +88,7 @@ a.activo {
     height: 100%;
 }
 
-.landing--imagenes {
 
-}
 
 .landing--imagenes img {
     width: 200px;
@@ -189,3 +187,44 @@ footer {
     color: #dec5be;
 
 }
+
+.catalogo-libreria,
+.catalogo-bijouterie {
+    width: 100dvw;
+    height: fit-content;
+    background-color: #bd998f;
+    padding-bottom: 100px;
+}
+
+.catalogo--titulo {
+    padding-top: 110px;
+}
+
+.catalogo--titulo h2 {
+    padding: 20px;
+    background-color: #901d3281;
+    color: aliceblue;
+}
+
+.catalogo--titulo p {
+    text-align: center;
+    background-color: #232323;
+    width: 600px;
+    padding: 20px;
+}
+
+.productos--card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.productos--card {
+    height: 360px;
+}
+
+.productos--card a {
+    margin-bottom: 30px;
+}
+
