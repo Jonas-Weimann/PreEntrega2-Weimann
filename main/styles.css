@@ -55,7 +55,7 @@ a.activo {
 .landing {
     width: 100dvw;
     height: fit-content;
-    background: url(../images/rosa.jpg);
+    background: #d5cbbf;
     background-repeat: no-repeat;
     padding-top: 80px;
 }
@@ -94,8 +94,7 @@ a.activo {
     width: 200px;
     height: 200px;
     margin: 45px 30px;
-
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .servicios {
@@ -132,7 +131,8 @@ a.activo {
 .productos {
     width: 100dvw;
     height: fit-content;
-    background-color: #dec5be;
+    background: url(../images/fondo-productos.jpg);
+    background-size: cover;
     padding: 150px 0;
 }
 
