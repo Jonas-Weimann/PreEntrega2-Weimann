@@ -228,3 +228,24 @@ footer {
     margin-bottom: 30px;
 }
 
+.oferta {
+    width: 100dvw;
+    height: fit-content;
+    background-color: #2e2826;
+}
+
+.oferta .row {
+    padding: 80px 0;
+}
+
+.oferta--descripcion {
+    background-color: #232220;
+}
+
+.oferta--descripcion h3 {
+    padding: 50px 40px;
+}
+
+.oferta--descripcion p {
+    padding: 10px 40px;
+}
