@@ -1,0 +1,266 @@
+@font-face {
+  font-family: loubag;
+  src: url("../../fonts/Variable/LoubagVariableGX.ttf") format("TrueType");
+}
+@font-face {
+  font-family: mon;
+  src: url("../../fonts/Montserrat/Montserrat-Medium.ttf") format("TrueType");
+}
+.loubag-dark {
+  font-family: loubag;
+  color: #232220;
+}
+
+.loubag-light {
+  font-family: loubag;
+  color: #dec5be;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+.border-rounded {
+  border-radius: 20px;
+}
+
+a.activo {
+  background-color: #dec5be;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: loubag;
+  scrollbar-width: none;
+}
+
+body {
+  position: relative;
+}
+
+.boton {
+  text-decoration: none;
+  background-color: #901d32;
+  text-align: center;
+  color: #fff;
+  width: fit-content;
+  padding: 10px 15px;
+}
+
+.landing {
+  width: 100dvw;
+  height: fit-content;
+  background: #d5cbbf;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+.landing--titulo {
+  background-color: #2e2826;
+}
+.landing--imagenes img {
+  width: 200px;
+  height: 200px;
+  margin: 45px 30px;
+  border-radius: 50%;
+}
+
+.row div,
+.image-container {
+  margin: 0;
+  padding: 0;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.productos {
+  width: 100dvw;
+  height: fit-content;
+  background: url(../images/fondo-productos.jpg);
+  background-size: cover;
+  padding: 150px 0;
+}
+.productos--card {
+  margin: 40px;
+}
+
+.info-extra {
+  width: 100dvw;
+  height: fit-content;
+  background-color: #232220;
+}
+.info-extra--titulo {
+  padding: 50px 0;
+}
+.info-libreria {
+  background: url(../images/infoLibreria.jpg);
+  height: 100%;
+}
+.info-libreria .boton {
+  margin: 500px 0;
+}
+.info-bijou {
+  background: url(../images/pink.jpg);
+  height: 100%;
+}
+.info-bijou .boton {
+  margin: 500px 0;
+}
+
+.servicios {
+  width: 100dvw;
+  height: fit-content;
+  background-color: #bd998f;
+}
+
+.que-ofrecemos {
+  width: 100%;
+  height: 600px;
+  z-index: 10;
+}
+.que-ofrecemos p {
+  width: 600px;
+  background-color: #dec5be;
+  padding: 20px 15px;
+  border-radius: 15px;
+}
+
+.image-container {
+  height: 100%;
+}
+.image-libreria {
+  height: 50%;
+}
+
+.catalogo-libreria, .catalogo-bijouterie {
+  width: 100dvw;
+  height: fit-content;
+  background-color: #bd998f;
+  padding-bottom: 100px;
+}
+.catalogo--titulo {
+  padding-top: 110px;
+}
+.catalogo--titulo h2 {
+  padding: 20px;
+  background-color: #901d32;
+  color: #fff;
+}
+.catalogo--titulo p {
+  text-align: center;
+  background-color: #232220;
+  width: 600px;
+  padding: 20px;
+}
+
+.productos--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productos--card a {
+  margin-bottom: 30px;
+}
+
+.card.productos--card {
+  height: 360px;
+}
+
+.oferta {
+  width: 100dvw;
+  height: fit-content;
+  background-color: #2e2826;
+}
+.oferta .row {
+  padding: 80px 0;
+}
+.oferta--descripcion {
+  background-color: #232220;
+}
+.oferta--descripcion h3 {
+  padding: 50px 40px;
+}
+.oferta--descripcion p {
+  padding: 10px 40px;
+}
+
+.galeria {
+  width: 100dvw;
+  height: fit-content;
+}
+
+.contain {
+  background-color: #232220;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1.5fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas: "grid-img-1 grid-img-1 grid-img-2 grid-img-2 grid-img-2 grid-img-3" "grid-img-1 grid-img-1 grid-img-2 grid-img-2 grid-img-2 grid-img-4" "grid-img-1 grid-img-1 grid-img-5 grid-img-5 grid-img-5 grid-img-5";
+}
+
+.grid-img-1 {
+  grid-area: grid-img-1;
+}
+
+.grid-img-2 {
+  grid-area: grid-img-2;
+}
+
+.grid-img-3 {
+  grid-area: grid-img-3;
+}
+
+.grid-img-4 {
+  grid-area: grid-img-4;
+}
+
+.grid-img-5 {
+  grid-area: grid-img-5;
+}
+
+.contain div img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-color: #dec5be;
+  width: 100dvw;
+  height: 80px;
+  font-family: loubag;
+  z-index: 100;
+  position: fixed;
+}
+
+#offcanvasNavbar {
+  background-color: #dec5be;
+  height: fit-content;
+}
+
+footer {
+  width: 100dvw;
+  height: fit-content;
+  background-color: #232220;
+}
+
+.redes {
+  background-color: #232220;
+  margin: 20px;
+  padding: 20px;
+}
+.redes ion-icon {
+  font-size: 3em;
+  cursor: pointer;
+}
+.redes a {
+  text-decoration: none;
+  color: #dec5be;
+}

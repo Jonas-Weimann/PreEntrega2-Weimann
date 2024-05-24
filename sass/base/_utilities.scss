@@ -1,0 +1,21 @@
+.loubag-dark {
+    font-family: loubag;
+    color: $color-secondary;
+}
+
+.loubag-light {
+    font-family: loubag;
+    color: $color-primary;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+.border-rounded {
+    border-radius: 20px;
+}
+
+a.activo {
+    background-color: $color-primary;
+}

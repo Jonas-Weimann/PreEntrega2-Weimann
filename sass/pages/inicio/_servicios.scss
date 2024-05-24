@@ -1,0 +1,26 @@
+.servicios {
+    @include section;
+    background-color: $color-primary-dark;
+}
+
+.que-ofrecemos {
+    @include width-height(100%, 600px);
+    z-index: 10;
+
+    p {
+        width: 600px;
+        background-color: $color-primary;
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+}
+
+.image {
+    &-container {
+        height: 100%;
+    }
+
+    &-libreria {
+        height: 50%;
+    }
+}

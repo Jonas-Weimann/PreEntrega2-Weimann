@@ -1,0 +1,39 @@
+.productos {
+    @include section;
+    background: url(../images/fondo-productos.jpg);
+    background-size: cover;
+    padding: 150px 0;
+
+    &--card {
+        margin: 40px;
+    }
+}
+
+.info {
+    &-extra {
+        @include section;
+        background-color: $color-secondary;
+
+        &--titulo {
+            padding: 50px 0;
+        }
+    }
+
+    &-libreria {
+        background: url(../images/infoLibreria.jpg);
+        height: 100%;
+
+        .boton {
+            margin: 500px 0;
+        }
+    }
+
+    &-bijou {
+        background: url(../images/pink.jpg);
+        height: 100%;
+
+        .boton {
+            margin: 500px 0;
+        }
+    }
+}

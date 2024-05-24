@@ -1,0 +1,25 @@
+.landing {
+    @include section();
+    background: #d5cbbf;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+
+    &--titulo {
+        background-color: $color-secondary-light;
+    }
+
+    &--imagenes img {
+        @include width-height(200px, 200px);
+        margin: 45px 30px;
+        border-radius: 50%;
+    }
+}
+
+.row div,
+.image-container {
+    @include margin-padding(0, 0);
+}
+
+.image-container img {
+    @include width-height(100%, 100%);
+}

@@ -1,0 +1,23 @@
+.contain {
+    background-color: $color-secondary;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1.5fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "grid-img-1 grid-img-1 grid-img-2 grid-img-2 grid-img-2 grid-img-3"
+        "grid-img-1 grid-img-1 grid-img-2 grid-img-2 grid-img-2 grid-img-4"
+        "grid-img-1 grid-img-1 grid-img-5 grid-img-5 grid-img-5 grid-img-5";
+}
+
+@for $i from 1 through 5 {
+    .grid-img-#{$i} {
+        grid-area: grid-img-#{$i};
+    }
+}
+
+.contain div img {
+    @include margin-padding(0, 0);
+    @include width-height(100%, 100%);
+}

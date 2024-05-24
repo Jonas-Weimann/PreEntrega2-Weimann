@@ -1,0 +1,12 @@
+.header {
+    background-color: $color-primary;
+    @include section(80px);
+    font-family: loubag;
+    z-index: 100;
+    position: fixed;
+}
+
+#offcanvasNavbar {
+    background-color: $color-primary;
+    height: fit-content;
+}

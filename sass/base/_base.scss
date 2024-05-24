@@ -1,0 +1,14 @@
+* {
+    @include margin-padding(0, 0);
+    box-sizing: border-box;
+    font-family: loubag;
+    scrollbar-width: none;
+}
+
+body {
+    position: relative;
+}
+
+.boton {
+    @include btn();
+}
