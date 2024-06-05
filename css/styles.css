@@ -6,6 +6,15 @@
   font-family: mon;
   src: url("../../fonts/Montserrat/Montserrat-Medium.ttf") format("TrueType");
 }
+
+ion-icon{
+  visibility:hidden
+}
+
+.hydrated{
+  visibility:inherit
+}
+
 .loubag-dark {
   font-family: loubag;
   color: #232220;
