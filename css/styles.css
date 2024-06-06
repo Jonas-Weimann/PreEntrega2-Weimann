@@ -210,6 +210,51 @@ body {
   color: #fff;
 }
 
+.formulario {
+  width: 100dvw;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  .formulario {
+    display: block;
+  }
+}
+.formulario__form-container, .formulario__beneficios-container {
+  width: 50%;
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .formulario__form-container, .formulario__beneficios-container {
+    width: 100dvw;
+  }
+}
+
+.form-container__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 25px 70px;
+  background-color: #bd998f;
+}
+.form-container__card form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container__card form .campo,
+.form-container__card form textarea {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 10px;
+}
+
 .contain {
   background-color: #232220;
   display: grid;
