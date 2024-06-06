@@ -163,6 +163,7 @@ body {
   text-align: center;
   background-color: #232220;
   width: 600px;
+  max-width: 100dvw;
   padding: 20px;
 }
 
@@ -190,9 +191,11 @@ body {
 }
 .oferta .row {
   padding: 80px 0;
+  max-width: 100dvw;
 }
 .oferta--descripcion {
   background-color: #232220;
+  max-width: 100dvw;
 }
 .oferta--descripcion h3 {
   padding: 50px 40px;
