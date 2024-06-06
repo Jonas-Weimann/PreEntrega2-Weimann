@@ -1,0 +1,13 @@
+.contactanos {
+    @include section;
+    &__titulo {
+        @include section;
+        padding: 110px 0 80px 0;
+        background-color: $color-primary-dark;
+        h1 {
+            padding: 20px;
+            background-color: $color-accent;
+            color: $color-white;
+        }
+    }
+}
