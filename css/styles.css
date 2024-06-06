@@ -177,8 +177,11 @@ body {
 }
 
 .card.productos--card {
-  height: 360px;
+  height: 500px;
+  max-height: 500px;
 }
+
+
 
 .oferta {
   width: 100dvw;
