@@ -1,10 +1,10 @@
 @font-face {
   font-family: loubag;
-  src: url("../../fonts/Variable/LoubagVariableGX.ttf") format("TrueType");
+  src: url("../fonts/Variable/LoubagVariableGX.ttf") format("TrueType");
 }
 @font-face {
   font-family: mon;
-  src: url("../../fonts/Montserrat/Montserrat-Medium.ttf") format("TrueType");
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf") format("TrueType");
 }
 .loubag-dark {
   font-family: loubag;
@@ -216,7 +216,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: url(../../../images/contacto-fondo.jpg);
+  background: url(../images/contacto-fondo.jpg);
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
@@ -343,32 +343,32 @@ body {
 }
 
 .avatar-1 {
-  background: url(../../../images/avatar-1.jpg);
+  background: url(../images/avatar-1.jpg);
   background-size: cover;
 }
 
 .avatar-2 {
-  background: url(../../../images/avatar-2.jpg);
+  background: url(../images/avatar-2.jpg);
   background-size: cover;
 }
 
 .avatar-3 {
-  background: url(../../../images/avatar-3.jpg);
+  background: url(../images/avatar-3.jpg);
   background-size: cover;
 }
 
 .avatar-4 {
-  background: url(../../../images/avatar-4.jpg);
+  background: url(../images/avatar-4.jpg);
   background-size: cover;
 }
 
 .avatar-5 {
-  background: url(../../../images/avatar-5.jpg);
+  background: url(../images/avatar-5.jpg);
   background-size: cover;
 }
 
 .beneficios-1 {
-  background: url(../../../images/beneficios-1.jpg);
+  background: url(../images/beneficios-1.jpg);
   background-size: cover;
   width: 100px;
   height: 100%;
@@ -378,7 +378,7 @@ body {
 }
 
 .beneficios-2 {
-  background: url(../../../images/beneficios-2.jpg);
+  background: url(../images/beneficios-2.jpg);
   background-size: cover;
   width: 100px;
   height: 100%;
@@ -388,7 +388,7 @@ body {
 }
 
 .beneficios-3 {
-  background: url(../../../images/beneficios-3.jpg);
+  background: url(../images/beneficios-3.jpg);
   background-size: cover;
   width: 100px;
   height: 100%;
