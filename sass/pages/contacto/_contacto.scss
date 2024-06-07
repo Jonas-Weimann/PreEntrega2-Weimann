@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: url(../../../images/contacto-fondo.jpg);
+    background: url(../images/contacto-fondo.jpg);
     background-size: cover;
     @include media-up(md) {
         display: block;
@@ -124,14 +124,14 @@
 
 @for $i from 1 through 5 {
     .avatar-#{$i} {
-        background: url(../../../images/avatar-#{$i}.jpg);
+        background: url(../images/avatar-#{$i}.jpg);
         background-size: cover;
     }
 }
 
 @for $i from 1 through 3 {
     .beneficios-#{$i} {
-        background: url(../../../images/beneficios-#{$i}.jpg);
+        background: url(../images/beneficios-#{$i}.jpg);
         background-size: cover;
         @include width-height(100px, 100%);
         min-width: 100px;
