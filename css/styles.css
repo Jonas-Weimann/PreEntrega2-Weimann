@@ -201,11 +201,11 @@ body {
 .contactanos__titulo {
   width: 100dvw;
   height: fit-content;
-  padding: 110px 0 80px 0;
-  background-color: #bd998f;
+  padding: 100px 0 20 0;
+  background-color: #901d32;
 }
 .contactanos__titulo h1 {
-  padding: 20px;
+  padding: 0px;
   background-color: #901d32;
   color: #fff;
 }
@@ -216,6 +216,8 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background: url(../../../images/contacto-fondo.jpg);
+  background-size: cover;
 }
 @media screen and (max-width: 768px) {
   .formulario {
@@ -244,10 +246,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: 25px 20px;
-  background-color: #bd998f;
+  backdrop-filter: blur(20px);
+  height: 700px;
+  margin: 0 25%;
+}
+@media screen and (max-width: 1024px) {
+  .form-container__card {
+    height: 500px;
+    margin: 100px 50px;
+    border-radius: 50px;
+  }
+}
+.form-container__card h3 {
+  font-weight: 600;
+  color: #fff;
+}
+.form-container__card p {
+  font-weight: 300;
 }
 .form-container__card form {
   display: flex;
@@ -261,6 +276,7 @@ body {
   height: 40px;
   margin: 5px;
   padding: 10px;
+  max-height: 210px;
 }
 
 .formulario__beneficios-container {
@@ -268,18 +284,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #bd998f;
 }
 .formulario__beneficios-container .beneficios {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: rgb(58, 58, 92);
   margin: 10px 0;
   padding: 20px;
   border-radius: 500px 0 0 500px;
+}
+.formulario__beneficios-container .beneficios h3 {
+  background-color: #a65b60;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 0 20px 20px 20px;
+  min-width: 160px;
 }
 
 .opiniones {
@@ -344,6 +365,36 @@ body {
 .avatar-5 {
   background: url(../../../images/avatar-5.jpg);
   background-size: cover;
+}
+
+.beneficios-1 {
+  background: url(../../../images/beneficios-1.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100%;
+  min-width: 100px;
+  border-radius: 5000px;
+  margin-right: 20px;
+}
+
+.beneficios-2 {
+  background: url(../../../images/beneficios-2.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100%;
+  min-width: 100px;
+  border-radius: 5000px;
+  margin-right: 20px;
+}
+
+.beneficios-3 {
+  background: url(../../../images/beneficios-3.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100%;
+  min-width: 100px;
+  border-radius: 5000px;
+  margin-right: 20px;
 }
 
 .contain {
