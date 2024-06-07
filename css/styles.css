@@ -62,6 +62,12 @@ body {
 }
 .landing--titulo {
   background-color: #2e2826;
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .landing--titulo {
+    height: 800px;
+  }
 }
 .landing--imagenes img {
   width: 200px;

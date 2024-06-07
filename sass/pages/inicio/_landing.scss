@@ -6,6 +6,10 @@
 
     &--titulo {
         background-color: $color-secondary-light;
+        height: 100%;
+        @include media-up(md) {
+            height: 800px;
+        }
     }
 
     &--imagenes img {
