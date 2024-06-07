@@ -9,6 +9,10 @@ body {
     position: relative;
 }
 
+* {
+    overflow-x: hidden;
+}
+
 .boton {
     @include btn();
 }

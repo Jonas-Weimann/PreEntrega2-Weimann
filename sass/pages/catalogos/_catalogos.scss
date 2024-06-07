@@ -4,6 +4,7 @@
         @include section;
         background-color: $color-primary-dark;
         padding-bottom: 100px;
+        max-width: 100dvw;
     }
     &--titulo {
         padding-top: 110px;
@@ -16,6 +17,7 @@
             text-align: center;
             background-color: $color-secondary;
             width: 600px;
+            max-width: 100dvw;
             padding: 20px;
         }
     }
@@ -30,7 +32,8 @@
 }
 
 .card.productos--card {
-    height: 360px;
+    height: 500px;
+    max-height: 500px;
 }
 
 .oferta {
@@ -39,11 +42,12 @@
 
     .row {
         padding: 80px 0;
+        max-width: 100dvw;
     }
 
     &--descripcion {
         background-color: $color-secondary;
-
+        max-width: 100dvw;
         h3 {
             padding: 50px 40px;
         }
