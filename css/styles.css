@@ -414,8 +414,8 @@ body {
   margin-right: 20px;
 }
 
-body {
-  background: url(../../../images/fondo-nosotros.jpg);
+.body-nosotros {
+  background: url(../images/fondo-nosotros.jpg);
 }
 
 .sobre-nosotros {
