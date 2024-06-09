@@ -414,6 +414,10 @@ body {
   margin-right: 20px;
 }
 
+body {
+  background: url(../../../images/fondo-nosotros.jpg);
+}
+
 .sobre-nosotros {
   width: 100dvw;
   height: fit-content;
@@ -428,6 +432,117 @@ body {
   padding: 0px;
   background-color: #901d32;
   color: #fff;
+}
+
+.informacion {
+  width: 100dvw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.informacion .presentacion {
+  max-width: 1300px;
+  background-color: #bd998f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: fit-content;
+  padding: 15px 10%;
+  margin: 8% 0;
+}
+.informacion .presentacion__titulo {
+  line-height: 3rem;
+  font-weight: 700;
+}
+.informacion .presentacion__descripcion {
+  background-color: #dec5be;
+  padding: 16px 30px;
+}
+
+.personal {
+  width: 100dvw;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.personal-1 {
+  background: url(../images/personal-1.jpg);
+  background-size: cover;
+  border-radius: 500px 500px 0 0;
+  min-width: 80px;
+  width: 300px;
+  height: 400px;
+  margin: 30px 16px 0 16px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+}
+.personal-1 h5 {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e2826;
+}
+
+.personal-2 {
+  background: url(../images/personal-2.jpg);
+  background-size: cover;
+  border-radius: 500px 500px 0 0;
+  min-width: 80px;
+  width: 300px;
+  height: 400px;
+  margin: 30px 16px 0 16px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+}
+.personal-2 h5 {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e2826;
+}
+
+.personal-3 {
+  background: url(../images/personal-3.jpg);
+  background-size: cover;
+  border-radius: 500px 500px 0 0;
+  min-width: 80px;
+  width: 300px;
+  height: 400px;
+  margin: 30px 16px 0 16px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+}
+.personal-3 h5 {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e2826;
+}
+
+.personal-4 {
+  background: url(../images/personal-4.jpg);
+  background-size: cover;
+  border-radius: 500px 500px 0 0;
+  min-width: 80px;
+  width: 300px;
+  height: 400px;
+  margin: 30px 16px 0 16px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+}
+.personal-4 h5 {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e2826;
 }
 
 .contain {
