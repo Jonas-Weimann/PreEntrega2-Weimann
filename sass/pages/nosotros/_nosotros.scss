@@ -1,0 +1,13 @@
+.sobre-nosotros {
+    @include section;
+    &__titulo {
+        @include section;
+        padding: 100px 0 20 0;
+        background-color: $color-accent;
+        h1 {
+            padding: 0px;
+            background-color: $color-accent;
+            color: $color-white;
+        }
+    }
+}

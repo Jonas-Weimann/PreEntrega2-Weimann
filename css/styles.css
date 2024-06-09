@@ -414,6 +414,22 @@ body {
   margin-right: 20px;
 }
 
+.sobre-nosotros {
+  width: 100dvw;
+  height: fit-content;
+}
+.sobre-nosotros__titulo {
+  width: 100dvw;
+  height: fit-content;
+  padding: 100px 0 20 0;
+  background-color: #901d32;
+}
+.sobre-nosotros__titulo h1 {
+  padding: 0px;
+  background-color: #901d32;
+  color: #fff;
+}
+
 .contain {
   background-color: #232220;
   display: grid;
