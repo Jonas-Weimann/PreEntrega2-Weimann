@@ -4,6 +4,10 @@
     font-family: loubag;
     z-index: 100;
     position: fixed;
+
+    li {
+        position: relative;
+    }
 }
 
 #offcanvasNavbar {

@@ -1,15 +1,25 @@
+.libreria-main {
+    background: url(../../../images/libreria-fondo.jpg);
+    background-size: cover;
+}
+
+.bijouterie-main {
+    background: url(../../../images/bijouterie-fondo.jpg);
+    background-size: cover;
+}
+
 .catalogo {
     &-libreria,
     &-bijouterie {
         @include section;
-        background-color: $color-primary-dark;
         padding-bottom: 100px;
         max-width: 100dvw;
     }
     &--titulo {
-        padding-top: 110px;
         h2 {
-            padding: 20px;
+            margin: 0;
+            padding: 100px 0 20px 0;
+            width: 100%;
             background-color: $color-accent;
             color: $color-white;
         }
@@ -18,6 +28,7 @@
             background-color: $color-secondary;
             width: 600px;
             max-width: 100dvw;
+            margin: 1rem 0 0 0.5rem;
             padding: 20px;
         }
     }

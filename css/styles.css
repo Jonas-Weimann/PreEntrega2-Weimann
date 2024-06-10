@@ -6,6 +6,38 @@
   font-family: mon;
   src: url("../fonts/Montserrat/Montserrat-Medium.ttf") format("TrueType");
 }
+li.nav-item a.activo {
+  background-color: #bd998f;
+  border-radius: 25px 25px 0 0;
+}
+li.nav-item a.activo::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #bd998f;
+  border-radius: 15px;
+  transform: scaleX(1);
+  transition: transform 0.3s;
+}
+li.nav-item a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #bd998f;
+  border-radius: 15px;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+li.nav-item a:hover::after {
+  transform: scaleX(1);
+}
+
 .loubag-dark {
   font-family: loubag;
   color: #232220;
@@ -148,18 +180,26 @@ body {
   height: 50%;
 }
 
+.libreria-main {
+  background: url(../../../images/libreria-fondo.jpg);
+  background-size: cover;
+}
+
+.bijouterie-main {
+  background: url(../../../images/bijouterie-fondo.jpg);
+  background-size: cover;
+}
+
 .catalogo-libreria, .catalogo-bijouterie {
   width: 100dvw;
   height: fit-content;
-  background-color: #bd998f;
   padding-bottom: 100px;
   max-width: 100dvw;
 }
-.catalogo--titulo {
-  padding-top: 110px;
-}
 .catalogo--titulo h2 {
-  padding: 20px;
+  margin: 0;
+  padding: 100px 0 20px 0;
+  width: 100%;
   background-color: #901d32;
   color: #fff;
 }
@@ -168,6 +208,7 @@ body {
   background-color: #232220;
   width: 600px;
   max-width: 100dvw;
+  margin: 1rem 0 0 0.5rem;
   padding: 20px;
 }
 
@@ -221,8 +262,8 @@ body {
   padding: 100px 0 20 0;
   background-color: #901d32;
 }
-.contactanos__titulo h1 {
-  padding: 0px;
+.contactanos__titulo h2 {
+  margin: 0;
   background-color: #901d32;
   color: #fff;
 }
@@ -429,8 +470,9 @@ body {
   padding: 100px 0 20 0;
   background-color: #901d32;
 }
-.sobre-nosotros__titulo h1 {
+.sobre-nosotros__titulo h2 {
   padding: 0px;
+  margin: 0;
   background-color: #901d32;
   color: #fff;
 }
@@ -590,6 +632,9 @@ body {
   font-family: loubag;
   z-index: 100;
   position: fixed;
+}
+.header li {
+  position: relative;
 }
 
 #offcanvasNavbar {

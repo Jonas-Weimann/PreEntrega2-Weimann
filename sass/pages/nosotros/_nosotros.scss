@@ -9,8 +9,9 @@
         @include section;
         padding: 100px 0 20 0;
         background-color: $color-accent;
-        h1 {
+        h2 {
             padding: 0px;
+            margin: 0;
             background-color: $color-accent;
             color: $color-white;
         }
