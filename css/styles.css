@@ -209,7 +209,11 @@ body {
   padding: 50px 0;
 }
 .info-extra--titulo:hover {
-  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  background-color: #bd998f;
+  transition: all 0.3s;
+}
+.info-extra--titulo:hover h2 {
+  color: #232220;
 }
 .info-libreria {
   background: url(../images/infoLibreria.jpg);
@@ -281,7 +285,7 @@ body {
   background-color: #232220;
   width: 600px;
   max-width: 100dvw;
-  margin: 1rem 0 0 0.5rem;
+  margin: 1rem 0 0 0;
   padding: 20px;
 }
 
