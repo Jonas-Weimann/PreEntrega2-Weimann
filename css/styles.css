@@ -737,17 +737,29 @@ footer {
 
 .redes {
   background-color: #232220;
-  margin: 20px;
-  padding: 0px;
+  margin: 0px;
+  padding: 20px;
 }
 .redes-container {
-  max-width: 300px;
+  max-width: 100dvw;
+}
+@media screen and (max-width: 540px) {
+  .redes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .redes ion-icon {
   font-size: 2em;
   cursor: pointer;
 }
 .redes a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: #dec5be;
 }

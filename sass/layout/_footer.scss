@@ -5,17 +5,20 @@ footer {
 
 .redes {
     &-container {
-        max-width: 300px;
+        max-width: 100dvw;
+        @include media-up(sm) {
+            @include flex-center(column);
+        }
     }
     background-color: $color-secondary;
-    @include margin-padding(20px, 0px);
-
+    @include margin-padding(0px, 20px);
     ion-icon {
         font-size: 2em;
         cursor: pointer;
     }
 
     a {
+        @include flex-center(column);
         text-decoration: none;
         color: $color-primary;
     }
