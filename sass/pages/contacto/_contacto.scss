@@ -106,6 +106,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+
         .clientes {
             @include flex-center;
             max-width: 500px;
@@ -120,6 +121,9 @@
 .avatar {
     @include width-height(100px, 100px);
     border-radius: 50%;
+    &:hover {
+        animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+    }
 }
 
 @for $i from 1 through 5 {

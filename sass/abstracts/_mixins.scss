@@ -3,7 +3,9 @@
     background-color: $bg-color;
     text-align: center;
     color: $color-white;
+    height: 45px;
     width: fit-content;
+    box-sizing: border-box;
     padding: 10px 15px;
 }
 

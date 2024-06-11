@@ -39,6 +39,65 @@ li.nav-item a:hover::after {
   transform: scaleX(1);
 }
 
+.boton:hover {
+  background-color: #fff;
+  color: #901d32;
+  padding: 8px 13px;
+  border: 2px solid #901d32;
+}
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes text-shadow-pop-br {
+  0% {
+    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: 1px 1px #555555, 2px 2px #555555, 3px 3px #555555, 4px 4px #555555, 5px 5px #555555, 6px 6px #555555, 7px 7px #555555, 8px 8px #555555;
+    transform: translateX(-8px) translateY(-8px);
+  }
+}
+@keyframes text-shadow-pop-bl {
+  0% {
+    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: -1px 1px #555555, -2px 2px #555555, -3px 3px #555555, -4px 4px #555555, -5px 5px #555555, -6px 6px #555555, -7px 7px #555555, -8px 8px #555555;
+    transform: translateX(8px) translateY(-8px);
+  }
+}
+@keyframes flip-vertical-left {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(-360deg);
+  }
+}
 .loubag-dark {
   font-family: loubag;
   color: #232220;
@@ -78,7 +137,9 @@ body {
   background-color: #901d32;
   text-align: center;
   color: #fff;
+  height: 45px;
   width: fit-content;
+  box-sizing: border-box;
   padding: 10px 15px;
 }
 
@@ -97,6 +158,11 @@ body {
   background-color: #2e2826;
   height: 100%;
 }
+.landing--titulo h1:hover {
+  animation: text-shadow-pop-bl 0.6s both;
+  color: #fff;
+  transition: color 0.3s;
+}
 @media screen and (max-width: 768px) {
   .landing--titulo {
     height: 800px;
@@ -107,6 +173,9 @@ body {
   height: 200px;
   margin: 45px 30px;
   border-radius: 50%;
+}
+.landing--imagenes img:hover {
+  animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 
 .row div,
@@ -138,6 +207,9 @@ body {
 }
 .info-extra--titulo {
   padding: 50px 0;
+}
+.info-extra--titulo:hover {
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 .info-libreria {
   background: url(../images/infoLibreria.jpg);
@@ -224,8 +296,8 @@ body {
 }
 
 .card.productos--card {
-  height: 500px;
-  max-height: 500px;
+  height: 440px;
+  max-height: 440px;
 }
 
 .oferta {
@@ -237,15 +309,22 @@ body {
   padding: 80px 0;
   max-width: 100dvw;
 }
+.oferta .row .productos--card {
+  animation: pulsate-fwd 1.2s ease-in-out infinite both;
+}
 .oferta--descripcion {
   background-color: #232220;
   max-width: 100dvw;
+  height: 200px;
 }
 .oferta--descripcion h3 {
-  padding: 50px 40px;
+  margin: 30px 40px;
 }
 .oferta--descripcion p {
-  padding: 10px 40px;
+  margin: 20px 40px;
+}
+.oferta--descripcion a {
+  margin: 0 40px;
 }
 
 .galeria {
@@ -399,6 +478,9 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+.avatar:hover {
+  animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 
 .avatar-1 {
@@ -653,6 +735,9 @@ footer {
   background-color: #232220;
   margin: 20px;
   padding: 20px;
+}
+.redes-container {
+  max-width: 400px;
 }
 .redes ion-icon {
   font-size: 3em;

@@ -36,15 +36,14 @@
 
 .productos--card {
     @include flex-center;
-
     a {
         margin-bottom: 30px;
     }
 }
 
 .card.productos--card {
-    height: 500px;
-    max-height: 500px;
+    height: 440px;
+    max-height: 440px;
 }
 
 .oferta {
@@ -54,17 +53,24 @@
     .row {
         padding: 80px 0;
         max-width: 100dvw;
+        .productos--card {
+            animation: pulsate-fwd 1.2s ease-in-out infinite both;
+        }
     }
 
     &--descripcion {
         background-color: $color-secondary;
         max-width: 100dvw;
+        height: 200px;
         h3 {
-            padding: 50px 40px;
+            margin: 30px 40px;
         }
 
         p {
-            padding: 10px 40px;
+            margin: 20px 40px;
+        }
+        a {
+            margin: 0 40px;
         }
     }
 }
