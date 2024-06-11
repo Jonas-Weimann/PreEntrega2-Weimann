@@ -1,7 +1,7 @@
 .landing {
     @include section();
-    background: #d5cbbf;
-    background-repeat: no-repeat;
+    background: url(../images/fondo-landing.jpg);
+    background-size: cover;
     padding-top: 80px;
 
     &--titulo {

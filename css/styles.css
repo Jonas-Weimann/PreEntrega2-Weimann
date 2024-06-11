@@ -8,6 +8,7 @@
 }
 li.nav-item a.activo {
   background-color: #bd998f;
+  color: #fff;
   border-radius: 25px 25px 0 0;
 }
 li.nav-item a.activo::after {
@@ -72,10 +73,6 @@ body {
   position: relative;
 }
 
-* {
-  overflow-x: hidden;
-}
-
 .boton {
   text-decoration: none;
   background-color: #901d32;
@@ -85,11 +82,15 @@ body {
   padding: 10px 15px;
 }
 
+.row {
+  margin: 0;
+}
+
 .landing {
   width: 100dvw;
   height: fit-content;
-  background: #d5cbbf;
-  background-repeat: no-repeat;
+  background: url(../images/fondo-landing.jpg);
+  background-size: cover;
   padding-top: 80px;
 }
 .landing--titulo {
@@ -181,12 +182,12 @@ body {
 }
 
 .libreria-main {
-  background: url(../../../images/libreria-fondo.jpg);
+  background: url(../images/libreria-fondo.jpg);
   background-size: cover;
 }
 
 .bijouterie-main {
-  background: url(../../../images/bijouterie-fondo.jpg);
+  background: url(../images/bijouterie-fondo.jpg);
   background-size: cover;
 }
 

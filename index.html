@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>YUXTY</title>
 </head>
-<body class="vh-100">
+<body>
     <header class="header d-flex align-items-center">
         <!--Navbar-->
         <nav class="navbar navbar-light navbar-expand-lg fixed-top header-nav">
@@ -62,12 +62,7 @@
                     <a class="boton border-rounded" href="./pages/nosotros.html">Conoce más</a>
                   </div>
                 </div>
-                <div class="col-md-5">
-                  <div class="image-container nuevos-ingresos">
-                    <img src="images/landing.jpg" alt="" class="img-fluid landing--imagen1">
-                  </div>
-                </div>
-                <div class=" col-md-2 col-sm-12 landing--imagenes d-flex justify-content-center align-items-center flex-wrap">
+                <div class=" col-md-3 col-sm-12 landing--imagenes d-flex justify-content-center align-items-end flex-wrap" >
                   <img src="./images/landing-globe.jpg" alt="">
                   <img src="./images/landing-globe-2.png.crdownload" alt="">
                   <img src="./images/landing-globe-3.jpg" alt="">
@@ -100,10 +95,11 @@
         </section>
         <section class="productos d-flex align-items-center justify-content-center flex-column">
             <div class="productos--titulo">
-              <h3 class="texto-centrado">Estos son algunos de nuestros productos</h3>
+              <h3 data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom" class="texto-centrado loubag-light">Estos son algunos de nuestros productos</h3>
             </div>
             <div class="productos--cards d-flex align-items-center justify-content-center flex-wrap">
-              <div class="card h-100 productos--card" style="width: 18rem">
+              <div  class="card h-100 productos--card" style="width: 18rem">
                 <img src="./images/productoAroscruz.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text texto-centrado">Aros cruz gótica bañados en oro.</p>
@@ -180,6 +176,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
-    </script>
+  AOS.init();
+</script>
 </body></html>
