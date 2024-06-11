@@ -738,13 +738,13 @@ footer {
 .redes {
   background-color: #232220;
   margin: 20px;
-  padding: 20px;
+  padding: 0px;
 }
 .redes-container {
-  max-width: 400px;
+  max-width: 300px;
 }
 .redes ion-icon {
-  font-size: 3em;
+  font-size: 2em;
   cursor: pointer;
 }
 .redes a {
