@@ -1,5 +1,5 @@
 .body-nosotros {
-    background: url(../images/fondo-nosotros.jpg);
+    background: url(../images/fondo-nosotros.png);
     background-size: cover;
 }
 
@@ -48,7 +48,7 @@
 
 @for $i from 1 through 4 {
     .personal-#{$i} {
-        background: url(../images/personal-#{$i}.jpg);
+        background: url(../images/personal-#{$i}.png);
         background-size: cover;
         border-radius: 500px 500px 0 0;
         min-width: 80px;

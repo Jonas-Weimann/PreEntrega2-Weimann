@@ -1,6 +1,6 @@
 .productos {
     @include section;
-    background: url(../images/fondo-productos.jpg);
+    background: url(../images/fondo-productos.png);
     background-size: cover;
     padding: 150px 0;
 
@@ -27,7 +27,7 @@
     }
 
     &-libreria {
-        background: url(../images/infoLibreria.jpg);
+        background: url(../images/info-libreria.png);
         height: 100%;
 
         .boton {
@@ -36,7 +36,7 @@
     }
 
     &-bijou {
-        background: url(../images/pink.jpg);
+        background: url(../images/pink.png);
         height: 100%;
 
         .boton {

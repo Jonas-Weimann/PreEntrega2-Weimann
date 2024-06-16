@@ -150,7 +150,7 @@ body {
 .landing {
   width: 100dvw;
   height: fit-content;
-  background: url(../images/fondo-landing.jpg);
+  background: url(../images/fondo-landing.png);
   background-size: cover;
   padding-top: 80px;
 }
@@ -192,7 +192,7 @@ body {
 .productos {
   width: 100dvw;
   height: fit-content;
-  background: url(../images/fondo-productos.jpg);
+  background: url(../images/fondo-productos.png);
   background-size: cover;
   padding: 150px 0;
 }
@@ -216,14 +216,14 @@ body {
   color: #232220;
 }
 .info-libreria {
-  background: url(../images/infoLibreria.jpg);
+  background: url(../images/info-libreria.png);
   height: 100%;
 }
 .info-libreria .boton {
   margin: 500px 0;
 }
 .info-bijou {
-  background: url(../images/pink.jpg);
+  background: url(../images/pink.png);
   height: 100%;
 }
 .info-bijou .boton {
@@ -258,12 +258,12 @@ body {
 }
 
 .libreria-main {
-  background: url(../images/libreria-fondo.jpg);
+  background: url(../images/fondo-libreria.png);
   background-size: cover;
 }
 
 .bijouterie-main {
-  background: url(../images/bijouterie-fondo.jpg);
+  background: url(../images/fondo-bijouterie.png);
   background-size: cover;
 }
 
@@ -358,7 +358,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: url(../images/contacto-fondo.jpg);
+  background: url(../images/fondo-contacto.png);
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
@@ -488,32 +488,32 @@ body {
 }
 
 .avatar-1 {
-  background: url(../images/avatar-1.jpg);
+  background: url(../images/avatar-1.png);
   background-size: cover;
 }
 
 .avatar-2 {
-  background: url(../images/avatar-2.jpg);
+  background: url(../images/avatar-2.png);
   background-size: cover;
 }
 
 .avatar-3 {
-  background: url(../images/avatar-3.jpg);
+  background: url(../images/avatar-3.png);
   background-size: cover;
 }
 
 .avatar-4 {
-  background: url(../images/avatar-4.jpg);
+  background: url(../images/avatar-4.png);
   background-size: cover;
 }
 
 .avatar-5 {
-  background: url(../images/avatar-5.jpg);
+  background: url(../images/avatar-5.png);
   background-size: cover;
 }
 
 .beneficios-1 {
-  background: url(../images/beneficios-1.jpg);
+  background: url(../images/beneficios-1.png);
   background-size: cover;
   width: 100px;
   height: 100%;
@@ -523,7 +523,7 @@ body {
 }
 
 .beneficios-2 {
-  background: url(../images/beneficios-2.jpg);
+  background: url(../images/beneficios-2.png);
   background-size: cover;
   width: 100px;
   height: 100%;
@@ -533,7 +533,7 @@ body {
 }
 
 .beneficios-3 {
-  background: url(../images/beneficios-3.jpg);
+  background: url(../images/beneficios-3.png);
   background-size: cover;
   width: 100px;
   height: 100%;
@@ -543,7 +543,7 @@ body {
 }
 
 .body-nosotros {
-  background: url(../images/fondo-nosotros.jpg);
+  background: url(../images/fondo-nosotros.png);
   background-size: cover;
 }
 
@@ -604,7 +604,7 @@ body {
 }
 
 .personal-1 {
-  background: url(../images/personal-1.jpg);
+  background: url(../images/personal-1.png);
   background-size: cover;
   border-radius: 500px 500px 0 0;
   min-width: 80px;
@@ -622,7 +622,7 @@ body {
 }
 
 .personal-2 {
-  background: url(../images/personal-2.jpg);
+  background: url(../images/personal-2.png);
   background-size: cover;
   border-radius: 500px 500px 0 0;
   min-width: 80px;
@@ -640,7 +640,7 @@ body {
 }
 
 .personal-3 {
-  background: url(../images/personal-3.jpg);
+  background: url(../images/personal-3.png);
   background-size: cover;
   border-radius: 500px 500px 0 0;
   min-width: 80px;
@@ -658,7 +658,7 @@ body {
 }
 
 .personal-4 {
-  background: url(../images/personal-4.jpg);
+  background: url(../images/personal-4.png);
   background-size: cover;
   border-radius: 500px 500px 0 0;
   min-width: 80px;
